@@ -1,6 +1,5 @@
-imporimport streamlit as st
+import streamlit as st
 import pandas as pd
-from prognosis_app import run_prognosis_app
 
 fname = st.text_input("Enter Name:")
 age = st.number_input("How old are you?")
