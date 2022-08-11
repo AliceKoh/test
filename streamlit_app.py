@@ -11,9 +11,8 @@ result = {
 	'gender':gender,
 	}
 
-answer = pd.DataFrame(result,index=[0])
-st.write(answer)
 
+with st.expander("CONTINUE"):
 answer = pd.DataFrame(result,index=[0])
 answer.to_csv('data/answer.csv',index=False)
-
+st.write(answer)
